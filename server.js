@@ -274,3 +274,6 @@ app.use(
 app.listen(port, () => {
   console.log(`Running a server at http://localhost:${port}`)
 })
+
+// Export the Express API
+module.exports = app;
